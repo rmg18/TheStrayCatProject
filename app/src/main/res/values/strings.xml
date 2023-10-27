@@ -6,4 +6,5 @@
     <string name="Yaco">Ignacio Yacobi</string>
     <string name="Correo">Correo</string>
     <string name="Contraseña">Contraseña</string>
+    <string name="botonContinuar">Continuar</string>
 </resources>
