@@ -8,29 +8,89 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="303dp"
-        android:layout_height="89dp"
-        android:layout_marginBottom="260dp"
+        android:id="@+id/fondogato"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gato"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondogato"
+        app:layout_constraintEnd_toEndOf="@+id/fondogato"
+        app:layout_constraintStart_toStartOf="@+id/fondogato"
+        app:layout_constraintTop_toTopOf="@+id/fondogato"
+        app:srcCompat="@drawable/petstraycat" />
+
+    <TextView
+        android:id="@+id/fondoStrayCat"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fondogato" />
+
+    <TextView
+        android:id="@+id/StrayCat"
+        android:layout_width="408dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="#101010"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondoStrayCat"
+        app:layout_constraintEnd_toEndOf="@+id/fondoStrayCat"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/fondoStrayCat"
+        app:layout_constraintTop_toTopOf="@+id/fondoStrayCat"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="364dp"
-        android:layout_height="320dp"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/rounded_border2"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+    <Button
+        android:id="@+id/botoniniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/elboton1"
+        android:text="@string/iniciarSesion"
+        android:textColor="#ffff"
+        android:textSize="34sp"
+        app:backgroundTint="@drawable/elboton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fondoStrayCat" />
+
+    <Button
+        android:id="@+id/botoncrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/elboton1"
+        android:text="@string/crearCuenta"
+        android:textSize="34sp"
+        app:backgroundTint="@drawable/elboton1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/petstraycat" />
+        app:layout_constraintTop_toBottomOf="@+id/botoniniciarSesion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

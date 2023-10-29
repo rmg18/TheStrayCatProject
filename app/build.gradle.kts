@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.straycat1"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.straycat1"

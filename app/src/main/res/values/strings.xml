@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">StrayCat</string>
-    <string name="crearcuenta">Crear Cuenta</string>
     <string name="Aida">SUUUUUPER CUTE</string>
     <string name="Compromiso">Nuestro compromiso para con la sociedad incluyo que el 3% de los beneficios obtenidos por la app son donados a protectoras de gatitos abandonados</string>
     <string name="Yaco">Ignacio Yacobi</string>
     <string name="Correo">Correo</string>
     <string name="Contraseña">Contraseña</string>
     <string name="botonContinuar">Continuar</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="crearCuenta">Crear cuenta</string>
 </resources>
