@@ -18,8 +18,10 @@
         android:background="@drawable/rounded_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondoiniciarsesion" />
+        app:layout_constraintTop_toBottomOf="@+id/fondoiniciarsesion"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/fondogato"
@@ -130,5 +132,19 @@
         app:layout_constraintTop_toBottomOf="@+id/contraseña"
         app:strokeColor="#CF765B"
         app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="15dp"
+        android:fontFamily="@font/thecatswhiskers"
+        android:text="¿No tienes cuenta?"
+        android:textAlignment="center"
+        android:textColor="#AF7C79"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin"
+        app:layout_constraintStart_toStartOf="@+id/fondologin"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña"
+        app:layout_constraintVertical_bias="0.596" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

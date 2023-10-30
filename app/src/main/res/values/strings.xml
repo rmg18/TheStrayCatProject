@@ -14,4 +14,6 @@
 </string>
     <string name="aceptarcookies">Acepto</string>
     <string name="noaceptarcookies">No acepto</string>
+    <string name="filtro">Filtro</string>
+    <string name="aplicar">Aplicar</string>
 </resources>

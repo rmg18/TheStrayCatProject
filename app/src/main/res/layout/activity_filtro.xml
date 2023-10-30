@@ -24,41 +24,15 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/fondogato"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/rounded_border2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/gato"
-        android:layout_width="334dp"
-        android:layout_height="169dp"
-        app:layout_constraintBottom_toBottomOf="@+id/fondogato"
-        app:layout_constraintEnd_toEndOf="@+id/fondogato"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/fondogato"
-        app:layout_constraintTop_toTopOf="@+id/fondogato"
-        app:layout_constraintVertical_bias="0.369"
-        app:srcCompat="@drawable/petstraycat" />
-
-    <TextView
         android:id="@+id/fondocrearcuenta"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_border"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondogato" />
+        tools:layout_editor_absoluteY="154dp" />
 
     <TextView
         android:id="@+id/iniciarsesion"
@@ -69,7 +43,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="2dp"
         android:fontFamily="@font/thecatswhiskers"
-        android:text="@string/cookies"
+        android:text="@string/filtro"
         android:textAlignment="center"
         android:textColor="#101010"
         android:textSize="60sp"
@@ -88,7 +62,7 @@
         android:layout_marginEnd="115dp"
         android:layout_marginBottom="28dp"
         android:fontFamily="@font/thecatswhiskers"
-        android:text="@string/botonContinuar"
+        android:text="@string/aplicar"
         android:textSize="24sp"
         app:backgroundTint="#F7825F"
         app:cornerRadius="26dp"
@@ -98,56 +72,45 @@
         app:strokeColor="#CF765B"
         app:strokeWidth="5dp" />
 
-    <TextView
-        android:id="@+id/textocookies"
-        android:layout_width="331dp"
-        android:layout_height="274dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="@font/thecatswhiskers"
-        android:text="@string/textoCookies"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/fondologin"
-        app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:layout_constraintTop_toTopOf="@+id/fondologin" />
-
-
-    <RadioGroup
-
-        android:layout_width="match_parent"
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="299dp" />
 
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="358dp" />
 
-    </RadioGroup>
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="418dp" />
 
-    <RadioButton
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="486dp" />
 
-        android:id="@+id/acepto"
-        android:layout_width="155dp"
-        android:layout_height="50dp"
-        android:onClick="Opcion1clikeada"
-        android:text="@string/aceptarcookies"
-        android:fontFamily="@font/thecatswhiskers"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="554dp"
-        tools:ignore="MissingConstraints" />
-
-    <RadioButton
-
-        android:id="@+id/noacepto"
-        android:layout_width="155dp"
-        android:layout_height="50dp"
-        android:onClick="Opcion1clikeada"
-        android:text="@string/noaceptarcookies"
-        android:fontFamily="@font/thecatswhiskers"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="554dp"
-        tools:ignore="MissingConstraints" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="553dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
