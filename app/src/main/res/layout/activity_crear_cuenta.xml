@@ -7,6 +7,7 @@
     android:background="#FABE8A"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/fondologin"
         android:layout_width="0dp"
@@ -19,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondoiniciarsesion" />
+        app:layout_constraintTop_toBottomOf="@+id/fondocrearcuenta" />
 
     <TextView
         android:id="@+id/fondogato"
@@ -47,7 +48,7 @@
         app:srcCompat="@drawable/petstraycat" />
 
     <TextView
-        android:id="@+id/fondoiniciarsesion"
+        android:id="@+id/fondocrearcuenta"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginStart="16dp"
@@ -71,18 +72,18 @@
         android:textAlignment="center"
         android:textColor="#101010"
         android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="@+id/fondoiniciarsesion"
-        app:layout_constraintEnd_toEndOf="@+id/fondoiniciarsesion"
+        app:layout_constraintBottom_toBottomOf="@+id/fondocrearcuenta"
+        app:layout_constraintEnd_toEndOf="@+id/fondocrearcuenta"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoiniciarsesion"
-        app:layout_constraintTop_toTopOf="@+id/fondoiniciarsesion" />
+        app:layout_constraintStart_toStartOf="@+id/fondocrearcuenta"
+        app:layout_constraintTop_toTopOf="@+id/fondocrearcuenta" />
 
     <EditText
         android:id="@+id/correo"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/rounded_border"
         android:ems="10"
@@ -90,14 +91,14 @@
         android:hint="@string/Correo"
         android:inputType="text"
         android:paddingStart="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondoiniciarsesion" />
+        app:layout_constraintStart_toStartOf="@+id/fondologin"
+        app:layout_constraintTop_toBottomOf="@+id/fondocrearcuenta" />
 
     <EditText
         android:id="@+id/contraseña"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
@@ -108,27 +109,46 @@
         android:hint="@string/Contraseña"
         android:inputType="textPassword"
         android:paddingStart="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin"
+        app:layout_constraintStart_toStartOf="@+id/fondologin"
         app:layout_constraintTop_toBottomOf="@+id/correo" />
+
+    <EditText
+        android:id="@+id/repetircontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:fontFamily="@font/thecatswhiskers"
+        android:hint="@string/repetirContraseña"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/fondologin"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="115dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="115dp"
         android:fontFamily="@font/thecatswhiskers"
         android:text="@string/botonContinuar"
         android:textSize="24sp"
         app:backgroundTint="#F7825F"
         app:cornerRadius="26dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contraseña"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin"
+        app:layout_constraintStart_toStartOf="@+id/fondologin"
+        app:layout_constraintTop_toBottomOf="@+id/repetircontraseña"
         app:strokeColor="#CF765B"
         app:strokeWidth="5dp" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
