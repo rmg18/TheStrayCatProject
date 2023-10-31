@@ -16,4 +16,8 @@
     <string name="noaceptarcookies">No acepto</string>
     <string name="filtro">Filtro</string>
     <string name="aplicar">Aplicar</string>
+    <string name="bar">Bar</string>
+    <string name="restaurante">Restaurante</string>
+    <string name="alojamiento">Alojamiento</string>
+    <string name="privados">Lugares privados</string>
 </resources>
