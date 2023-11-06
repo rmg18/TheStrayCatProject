@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StrayCat</string>
+    <string name="Compromiso">Our commitment to society included that 3% of the profits obtained from the app are donated to shelters of abandoned kittens.</string>
+    <string name="Correo">Email</string>
+    <string name="Contraseña">Password</string>
+    <string name="repetirContraseña">Retype password</string>
+    <string name="botonContinuar">Continue</string>
+    <string name="iniciarSesion">Login</string>
+    <string name="crearCuenta">New account</string>
+    <string name="cookies">Cookies</string>
+    <string name="textoCookies">We use cookies to analyze our kittens\' data, to improve our app and show you the best personalized content, thus giving you an excellent experience in our app. For more information about the cookies we use, open settings.</string>
+    <string name="aceptarcookies">Agree</string>
+    <string name="noaceptarcookies">Disagree</string>
+    <string name="filtro">Filter</string>
+    <string name="aplicar">Apply</string>
+    <string name="bar">Bar</string>
+    <string name="restaurante">Restaurant</string>
+    <string name="alojamiento">Accommodation</string>
+    <string name="privados">Private places</string>
+</resources>
