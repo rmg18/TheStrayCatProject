@@ -20,9 +20,7 @@ public class Filtro extends AppCompatActivity {
 
         Glide.with(this)
 
-                .load("https://i.imgur.com/2qn7dyl.jpg")
-
-                .into(logotipo);
+                .load("https://i.imgur.com/2qn7dyl.jpg").into(logotipo);
 
     }
 }
