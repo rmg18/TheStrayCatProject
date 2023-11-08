@@ -8,8 +8,9 @@
     <string name="iniciarSesion">Iniciar Sesión</string>
     <string name="crearCuenta">Crear cuenta</string>
     <string name="cookies">Uso de cookies</string>
-    <string name="textoCookies">Utilizamos las galletitas para el análisis de los datos de nuestros gatitos, para mejorar nuestra app y mostrarte el mejor contenido personalizado y brindándote así una excelente experiencia en nuestra app. Para obtener más información sobre las cookies que utilizamos, abre los ajustes.
-</string>
+    <string name="textoCookies">Utilizamos las galletitas para el análisis de los datos de nuestros gatitos, para mejorar nuestra app
+        y mostrarte el mejor contenido personalizado y brindándote así una excelente experiencia en nuestra app. Para obtener más
+        sobre las cookies que utilizamos, abre los ajustes.</string>
     <string name="aceptarcookies">Acepto</string>
     <string name="noaceptarcookies">No acepto</string>
     <string name="filtro">Filtro</string>
@@ -18,4 +19,5 @@
     <string name="restaurante">Restaurante</string>
     <string name="alojamiento">Alojamiento</string>
     <string name="privados">Lugares privados</string>
+    <string name="ayuda">¿En qué podemos ayudarte?</string>
 </resources>
