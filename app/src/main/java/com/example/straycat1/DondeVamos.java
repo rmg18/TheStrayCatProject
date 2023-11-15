@@ -29,7 +29,7 @@ public class DondeVamos extends AppCompatActivity {
         CollapsingToolbarLayout toolBarLayout = binding.toolbarLayout;
         toolBarLayout.setTitle(getTitle());
 
-        FloatingActionButton fab = binding.fab;
+        FloatingActionButton fab = binding.fragmentContainerView;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
