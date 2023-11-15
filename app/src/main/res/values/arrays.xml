@@ -1,5 +1,21 @@
 <resources>
-    <!-- Reply Preference -->
+    <!-- Array de String con los locales de ejemplo que tenemos. -->
+    <string-array name="restaurants">
+        <item>Miss Sushi, San Pablo</item>
+        <item>Azahar, Sevilla</item>
+        <item>Casa Manolo León</item>
+        <item>Artillería, Sevilla</item>
+        <item>La Bernarda</item>
+        <item>Taberna del Alabardero</item>
+        <item>Camballá</item>
+        <item>Al-Zagal</item>
+        <item>Velouté, La Buhaira</item>
+        <item>Brasería el Colibrí</item>
+        <item>Spicy Soul Hot Pot</item>
+        <item>Tierra y Mar, Bellavista</item>
+        <item>Empire State Burger</item>
+    </string-array>
+
     <string-array name="reply_entries">
         <item>Reply</item>
         <item>Reply to all</item>
