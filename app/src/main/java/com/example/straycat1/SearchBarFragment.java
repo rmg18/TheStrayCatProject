@@ -58,7 +58,7 @@ public class SearchBarFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // ste es el fragmento donde vamos a crear el buscador
         return inflater.inflate(R.layout.fragment_search_bar, container, false);
     }
 }
