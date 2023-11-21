@@ -4,10 +4,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fondoapp">#B8B8B5</color>
     <color name="fondomenu">#EDE9DE</color>
-    <color name="bordes_fondomenu"></color>
-    <color name="login"></color>
-    <color name="bordelogin"></color>
+    <color name="bordes_fondomenu">#e7e7cf</color>
+    <color name="login">#fcfcfc</color>
+    <color name="bordelogin">#c7c1c1</color>
     <color name="boton">#F79B5E</color>
     <color name="bordeboton">#CF8452</color>
-    F79B5E
+    <color name="colorzurullo">#623D2F</color>
+    <color name="colorbordezurullo">#814A35</color>
+
 </resources>
