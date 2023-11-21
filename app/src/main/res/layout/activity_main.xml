@@ -1,71 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FABE8A"
-    android:orientation="vertical"
-
+    android:background="#B8B8B5"
     tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/gatotexto"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/straycatescrito" />
 
     <ImageView
         android:id="@+id/gato"
         android:layout_width="match_parent"
-        android:layout_height="303dp"
-        app:srcCompat="@drawable/straycatescrito"
-        tools:layout_editor_absoluteY="21dp" />
-
-    <TextView
-        android:id="@+id/fondoStrayCat"
-        android:layout_width="match_parent"
-        android:layout_height="107dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/rounded_border"
+        android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="345dp" />
-
-    <TextView
-        android:id="@+id/StrayCat"
-        android:layout_width="408dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/thecatswhiskers"
-        android:text="@string/app_name"
-        android:textAlignment="center"
-        android:textColor="#101010"
-        android:textSize="70sp"
-        app:layout_constraintBottom_toBottomOf="@+id/fondoStrayCat"
-        app:layout_constraintEnd_toEndOf="@+id/fondoStrayCat"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="@+id/fondoStrayCat"
-        app:layout_constraintTop_toTopOf="@+id/fondoStrayCat"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/gatotexto"
+        app:srcCompat="@drawable/petstraycatsolo" />
 
     <Button
         android:id="@+id/botoniniciarSesion"
-        android:onClick="filtro"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="32dp"
         android:fontFamily="@font/thecatswhiskers"
+        android:onClick="filtro"
         android:text="@string/iniciarSesion"
         android:textColor="#101010"
         android:textSize="34sp"
-        app:backgroundTint="#F7825F"
+        app:backgroundTint="#F79B5E"
         app:cornerRadius="26dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondoStrayCat"
-        app:strokeColor="#CF765B"
+        app:layout_constraintTop_toBottomOf="@+id/gato"
+        app:strokeColor="#CF8452"
         app:strokeWidth="5dp" />
 
     <Button
@@ -73,20 +55,20 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="80dp"
         android:fontFamily="@font/thecatswhiskers"
         android:text="@string/crearCuenta"
         android:textColor="#101010"
         android:textSize="34sp"
-        app:backgroundTint="#F7825F"
+        app:backgroundTint="#F79B5E"
         app:cornerRadius="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botoniniciarSesion"
-        app:strokeColor="#CF765B"
+        app:strokeColor="#CF8452"
         app:strokeWidth="5dp" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
