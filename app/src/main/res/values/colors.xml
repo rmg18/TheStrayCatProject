@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fondoapp">#B8B8B5</color>
+    <color name="fondomenu">#EDE9DE</color>
+    <color name="bordes_fondomenu"></color>
+    <color name="login"></color>
+    <color name="bordelogin"></color>
+    <color name="boton"></color>
+    <color name="bordeboton"></color>
+
 </resources>
