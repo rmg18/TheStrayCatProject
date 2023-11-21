@@ -7,7 +7,7 @@
     <color name="bordes_fondomenu"></color>
     <color name="login"></color>
     <color name="bordelogin"></color>
-    <color name="boton"></color>
-    <color name="bordeboton"></color>
-
+    <color name="boton">#F79B5E</color>
+    <color name="bordeboton">#CF8452</color>
+    F79B5E
 </resources>
