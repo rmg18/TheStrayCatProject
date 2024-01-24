@@ -112,12 +112,13 @@
         android:text="@string/botonContinuar"
         android:textSize="30sp"
         app:backgroundTint="#F79B5E"
+        app:strokeColor="#CF8452"
         app:cornerRadius="26dp"
         app:layout_constraintBottom_toBottomOf="@+id/fondologin"
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
         app:layout_constraintTop_toBottomOf="@+id/contraseña"
-        app:strokeColor="#CF8452"
+
         app:strokeWidth="5dp" />
 
     <TextView

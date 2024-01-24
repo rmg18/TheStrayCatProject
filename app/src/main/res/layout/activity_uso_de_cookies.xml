@@ -74,12 +74,12 @@
         android:fontFamily="@font/thecatswhiskers"
         android:text="@string/botonContinuar"
         android:textSize="24sp"
-        app:backgroundTint="#F7825F"
+        app:backgroundTint="#F79B5E"
+        app:strokeColor="#CF8452"
         app:cornerRadius="26dp"
         app:layout_constraintBottom_toBottomOf="@+id/fondologin"
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:strokeColor="#CF765B"
         app:strokeWidth="5dp" />
 
     <TextView
